@@ -159,10 +159,11 @@ def _(mo):
     ## Work with rows and columns
 
     A two-dimensional array arranges values into rows and columns. The `axis`
-    argument tells NumPy which direction to combine: `axis=0` works down the
-    rows (one result per column), while `axis=1` works across the columns (one
-    result per row). The next cells show the array, then its column and row
-    totals.
+    argument tells NumPy which dimension to collapse when combining values.
+    For this 2-by-3 array, `axis=0` combines values from different rows in the
+    same column: `1 + 4`, `2 + 5`, and `3 + 6`, giving 3 column totals.
+    `axis=1` combines values across the columns within each row: `1 + 2 + 3`
+    and `4 + 5 + 6`, giving 2 row totals.
     """)
     return
 
