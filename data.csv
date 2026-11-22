@@ -1,0 +1,13 @@
+item,region,units,price
+Notebook,North,3,4.5
+Pen,South,10,1.2
+Notebook,South,2,4.5
+Mug,North,1,8.0
+Pen,North,7,1.2
+Book,East,2,12.0
+Desk,West,4,35.0
+Lamp,East,3,18.5
+Chair,West,6,22.0
+Bottle,South,8,7.5
+Folder,North,5,2.0
+Marker,East,9,1.5
